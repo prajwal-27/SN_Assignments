@@ -197,8 +197,8 @@ resource "aws_db_instance" "my_rds_instance" {
   allocated_storage      = 20
   storage_type           = "gp2"
   db_name                = "mydatabase"
-  username               = "mayur"
-  password               = "mayur123"
+  username               = "admin"
+  password               = "admin123"
   parameter_group_name     = "default.mysql5.7"
   backup_retention_period  = 7
   vpc_security_group_ids   = [aws_security_group.vpc_security_group.id]
